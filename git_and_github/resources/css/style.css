@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #FFF;;
+}
+
+header {
+    margin: 20px auto;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: normal;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.phone a {
+    color: aquamarine;
+    font-size: 1rem;
+    margin: 20px;
+}
+
+.travel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.travel h1 {
+    font-size: 2.625rem;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.travel p {
+    font-size: 1.3125rem;
+    color: gray;
+    margin: 20px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.app img {
+    margin: 15px auto 20px auto;
+}
+
+.app h1 {
+    font-size: 2.625rem;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.app a {
+    color: aquamarine;
+    font-size: 1rem;
+    margin: 20px;
+    font-weight: 500;
+}
+
+footer {
+    margin: 20px;    
+}
+
+footer p {
+    text-align: right;
+    color: gray;
+    margin: 20px;
+    font-size: 1.5rem;
+}
