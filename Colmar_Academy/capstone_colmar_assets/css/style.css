@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 64px;
+    background-color: #FFF;
+}
+
+nav {
+    display: flex;
+}
+
+.banner-container {
+    background-color: gray;
+}
+
+@media only screen and (max-width: 450px) {
+
+}
