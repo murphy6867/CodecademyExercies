@@ -1,0 +1,26 @@
+* {
+    background-color: #000;
+}
+
+.parent {
+    width: 800px;
+    height: 800px;
+    background-color: burlywood;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 60% 40%;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 10px;    
+}
+
+@media only screen and (max-width: 400px) {
+    .parent {
+        grid-template-columns: 1fr;
+    }
+}
